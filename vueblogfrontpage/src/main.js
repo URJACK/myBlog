@@ -10,6 +10,7 @@ import 'mavon-editor/dist/css/index.css'
 import 'element-ui/lib/theme-chalk/index.css'
 
 import "./axios"
+import "./permission"
 
 Vue.config.productionTip = false
 Vue.use(Element)
