@@ -17,6 +17,8 @@ Vue.use(Element)
 Vue.use(mavonEditor)
 Vue.prototype.$axios = axios
 
+console.log(process.env);
+
 new Vue({
   router,
   store,
