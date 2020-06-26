@@ -3,7 +3,7 @@ import Element from 'element-ui'
 import router from './router'
 import store from './store'
 
-axios.defaults.baseURL = "http://localhost:8081"
+axios.defaults.baseURL = process.env.VUE_APP_AXIOS_URL
 
 //前置拦截 (发起请求作的配置)
 axios.interceptors.request.use(config => {
