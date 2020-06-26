@@ -7,13 +7,13 @@
     </div>
 
     <div class="maction">
-      <el-link type="info" href="/blogs">主页</el-link>
+      <el-link type="info" href="#/blogs">主页</el-link>
       <el-divider direction="vertical"></el-divider>
-      <el-link type="success" href="/blog/add">发表文章</el-link>
+      <el-link type="success" href="#/blog/add">发表文章</el-link>
 
       <el-divider direction="vertical"></el-divider>
       <span v-show="!hasLogin">
-        <el-link type="primary" href="/login">登录</el-link>
+        <el-link type="primary" href="#/login">登录</el-link>
         <el-divider direction="vertical"></el-divider>
       </span>
 

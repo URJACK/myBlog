@@ -53,7 +53,7 @@ export default {
         if (valid) {
           const _this = this;
           this.$axios
-            .post("http://localhost:8081/login", this.ruleForm)
+            .post(process.env.VUE_APP_AXIOS_URL+"/login", this.ruleForm)
             .then(res => {
               const jwt = res.headers["authorization"];
               const userInfo = res.data.data;
